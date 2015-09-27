@@ -1,0 +1,15 @@
+{
+  "port": 3000,
+  "protocol": "http",
+  "httpsOptions": {},
+  "amqp": {
+    "user": "guest",
+    "password": "guest",
+    "url": "localhost",
+    "port": "5672",
+    "exchange": "incoming_webhook"
+  },
+  "logging": {
+    "level": "debug"
+  }
+}
